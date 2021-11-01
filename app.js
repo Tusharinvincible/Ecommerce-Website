@@ -10,6 +10,11 @@ app.get("/",(req,res)=>{
     res.render('home');
 })
 
+
+app.get("/product",(req,res)=>{
+    res.render("product");
+})
+
 app.get("/men",(req,res)=>{
     res.render("men");
 })
@@ -17,8 +22,16 @@ app.get("/women",(req,res)=>{
     res.render("women");
 })
 
+app.get("/search",(req,res)=>{
+    res.render('search');
+})
+
 app.get("/kids",(req,res)=>{
     res.render("kids");
+})
+
+app.get("/404",(req,res)=>{
+    res.render("404");
 })
 
 app.get("/accessories",(req,res)=>{
