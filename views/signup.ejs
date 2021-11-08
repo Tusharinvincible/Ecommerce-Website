@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/signup.css">
+    <title>Clothing: Create Account</title>
+</head>
+<body>
+    <img src="img/loader.gif" class="loader" alt="">
+
+    <div class="alert-box" >
+        <img class="alert-img" src="img/error.png" alt="">
+        <p class="alert-msg">Error Message </p>
+
+    </div>
+
+    <div class="container" >
+        <img src="img/dark-logo.png" class="logo" alt="">
+
+        <div>
+            <input type="text" autocomplete="off" name="name" placeholder="name" id="name">
+            <input type="email" autocomplete="off" name="mail" placeholder="email" id="email">
+            <input type="password" autocomplete="off" name="password" placeholder="password" id="password">
+            <input type="text" autocomplete="off" id="number" name="number" id="number" placeholder="number">
+            <input type="checkbox" checked class="checkbox" id="terms-and-cond">
+            <label for="terms-and-cond"> Accept  <a href="">Terms And Conditions</a>  </label>
+            <br>
+            <input type="checkbox" class="checkbox" id="notification">
+            <label for="notification"> Receive Upcoming Offers And Events Mails </label>
+
+            <button class="submit-btn">create account</button>
+        </div>
+
+        <a class="link" href="">Already have an account? log in here </a>
+
+    </div>
+</body>
+<script src="js/form.js"></script>
+</html>
